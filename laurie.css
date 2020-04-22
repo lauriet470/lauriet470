@@ -1,0 +1,67 @@
+*{
+  box-sizing:border-box;
+}
+.container{
+  width:100%;
+  max-width: 960px;
+  margin:0 auto;
+  clear:both;
+}
+#name{
+font-size: 30px;
+font-weight: bold;
+text-decoration:none;
+text-align: center;
+color:Teal;
+float:left;
+width: 250px;
+height: 90px;
+}
+#links{
+  color:gray;
+   font-weight: bold;
+    margin-right:20px;
+   float:right;
+     }
+ Links{
+   float:right;
+   margin-top: 25px;
+ }
+Links a{
+  display:inline-block;
+  border-left: 1 px;
+  padding-left:15px;
+  line-height: 18px;
+  margin-left: 15px;
+  text-decoration: none ;
+}
+
+ Links a :first-child {
+   border-left: 0 none;
+ }  
+  
+.wrapper{
+ float:left; 
+   width:100%;
+  max-width: 960px;
+  margin:0 auto;
+  clear:both;
+  height:400px;
+}
+#pic{
+padding-left: 20px;
+padding-top:30px;
+float: left;
+}
+#text{
+  color: teal;
+  background-color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding-top:130px;
+}
+.footer{
+ text-align: center;
+ padding-top: 30px;
+ 
+}
